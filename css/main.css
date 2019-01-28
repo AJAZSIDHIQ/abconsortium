@@ -2487,7 +2487,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio {
-  position: ;
+  position: relative;
   overflow: hidden;
 }
 
