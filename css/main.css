@@ -2677,10 +2677,10 @@ html.no-csstransitions .home-content__main {
     padding: 15rem 0 22.2rem;
   }
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 500px) {
   .masonry-wrap {
     width: 90%;
-    max-width: 800px;
+    max-width: 400px;
   }
 
   .masonry .grid-sizer,
