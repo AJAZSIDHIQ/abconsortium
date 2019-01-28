@@ -2482,7 +2482,7 @@ html.no-csstransitions .home-content__main {
   width: 460px;
 }
 .masonry__brick {
-  float: left;
+  float: right;
   padding: 0;
 }
 
