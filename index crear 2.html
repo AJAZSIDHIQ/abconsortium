@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>ABConsortium</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--- Dropdown
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .dropbtn {
+          background-color: #3498DB;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+          border-radius: 12px;
+        }
+        
+        .dropbtn:hover, .dropbtn:focus {
+          background-color: #2980B9;
+        }
+        
+        .dropdown {
+          position: right;
+          display: inline-block;
+          margin: 4px 2px;
+          display: inline-block;
+          padding: 50px 50px;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: rgb(59, 229, 241);
+          text-align: left;
+          text-align: justify;
+          min-width: 160px;
+          overflow: auto;
+          padding: 50px 50px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown a:hover {background-color: #ddd;}
+        
+        .show {display: block;}
+        </style>
+        <!--dropdown style ends-->
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/vendor.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href=".index.html">
+                <img src="../images/icons/logowhite.png" alt="Homepage">
+            </a>
+        </div> <!-- end header-logo -->
+
+       <<nav class="header-nav">
+
+            <a href="../" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>ABConsortium</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class=""  href="../index.html#home" title="home">Home</a></li>
+                    <li><a class=""  href="../index.html#about" title="about">About</a></li>
+                    <li><a class=""  href="../index.html#services" title="services">Services</a></li>
+                    <li><a class=""  href="#careers" title="works">Careers</a></li>
+                    <li><a class=""  href="../index.html#contact" title="contact">Contact</a></li>
+                </ul>
+    
+                <p>We are experts in this industry with over 100 years experience. What that means is you are going to get right solution. Please find our services.</p>
+    
+                <!--<ul class="header-nav__social">
+                    <li>
+                        <a href="#0"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-dribbble"></i></a>
+                    </li>
+                </ul>-->
+
+            </div> <!-- end header-nav__content-->
+
+        </nav> <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="../images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+                <h1>
+               CAREERS
+                </h1>
+
+                <p>
+                Find a Career for life..
+                </p>
+            </div> <!-- end home-content__main -->
+
+        </div> <!-- end home-content -->
+
+       <!-- <ul class="home-sidelinks">
+            <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
+            <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
+            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
+        </ul> <!-- end home-sidelinks --> 
+
+       <!-- <ul class="home-social">
+            <li class="home-social-title">Follow Us</li>
+            <li><a href="#0">
+                <i class="fab fa-facebook"></i>
+                <span class="home-social-text">Facebook</span>
+            </a></li>
+            <li><a href="#0">
+                <i class="fab fa-twitter"></i>
+                <span class="home-social-text">Twitter</span>
+            </a></li>
+            <li><a href="#0">
+                <i class="fab fa-linkedin"></i>
+                <span class="home-social-text">LinkedIn</span>
+            </a></li>
+        </ul> <!-- end home-social -->
+
+        <a href="#about" class="home-scroll smoothscroll">
+            <span class="home-scroll__text">Scroll Down</span>
+            <span class="home-scroll__icon"></span>
+        </a> <!-- end home-scroll -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+   <section id='about' class="s-about">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Process</h3>
+                <h1 class="display-1">Recruitment Process</h1>
+                <p>Do you have the passion to excel, urge to be creative, a never-ending thirst for knowledge and the desire to grow? Then, This is the right place for you because we focus on building a culture of innovation and breakthrough thinking, which results in value creation. The work environment and corporate culture ensure your personal and professional development along with the overall growth of the organization.</p>
+            </div>
+        </div> <!-- end section-header -->
+
+        <!-- <div class="row" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                        We are experts in this industry with over 100 years experience. What that means is you are going to get right solution. Please find our services.
+                    We have built an enviable reputation in the consumer goods, heavy industry, high-tech, manufacturing, medical, recreational vehicle, and transportation sectors. multidisciplinary team of engineering experts.
+
+                    Who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain.
+                    
+                    Denouncing pleasure and praising pain was born and I will give you a complete account of the system, expound the actual teachings. 
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row">
+                
+            <div class="about-process process block-1-2 block-tab-full">
+
+                <div class="process__vline-left"></div>
+                <div class="process__vline-right"></div>
+
+                <div class="col-block process__col" data-item="1" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Application</h4>
+
+                        <p>
+                            
+                        Our user-friendly career section enables you to apply for the desired job Submit your resume with a complete list of credentials and provide detailed information about your experience for the position applied
+</p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="2" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Shortlisting</h4>
+
+                        <p>A recruiter/technical panel will screen your application and if your credentials match with our requirement, we will contact you for further details</p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="3" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Third Party Verification</h4>
+
+                        <p>The third party verification is the verification process of your details and documents to validate for various posts based on company requirements.</p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="4" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Technical & HR Interview</h4>
+
+                        <p>
+                            The technical interview is a golden opportunity for you to exhibit your technical skills. The questions would range across disciplines and may include puzzle, problems and other out-of-the-box questions. Here is our chance to get to know each other better. We try to understand your career goals, skills, strengths, passion etc. You can quiz the recruiter anything you would like to know about the position or HCL as an organization
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="5" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Offer Rollout</h4>
+
+                        <p>
+                            Finally, if you are successful, an offer is rolled out along with compensation structure and other rules related to employment at HCL</p>
+                    </div>
+                </div>
+            </div> <!-- end process -->
+
+        </div> <!-- end about-stats -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services light-gray">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <!--<h3 class="subhead">Current Job Roles</h3>-->
+                <h1 class="display-1">Current Job Openings</h1>
+                </div>
+        </div> <!-- end section-header -->
+        <div class="row">
+                <h3>Digital Marketing Trainer</h3>
+                 <p><span id="dots">Candidates should be able to train people on different aspects of digital marketing such as Google Adwords, Social media marketing, SEO, Affiliate marketing, YouTube marketing etc..</span><span id="more">Candidates should be able to train people on different aspects of digital marketing such as Google Adwords, Social media marketing, SEO, Affiliate marketing, YouTube marketing etc..
+
+                        <br><br>Job Type: Full-time
+                        
+                        <br>Experience: Marketing: 1 years
+                        
+                        <br> Digital Marketing: 1 years
+                        
+                        <br>Work: 2 years
+                        
+                        <br>Education: Bachelor's
+                        
+                        <br>Location: UAE
+                        
+                        <br>Language: English , Hindi
+                        
+                        <br>Salary: AED 14,850.00 to AED 16,000.00 /month</span></p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+        <script>
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+       <div class="row">
+            <h3>Digital Marketing Trainer</h3>
+             <p><span id="dots">Candidates should be able to train people on different aspects of digital marketing such as Google Adwords, Social media marketing, SEO, Affiliate marketing, YouTube marketing etc..</span><span id="more">Candidates should be able to train people on different aspects of digital marketing such as Google Adwords, Social media marketing, SEO, Affiliate marketing, YouTube marketing etc..
+
+                    <br><br>Job Type: Full-time
+                    
+                    <br>Experience: Marketing: 1 years
+                    
+                    <br> Digital Marketing: 1 years
+                    
+                    <br>Work: 2 years
+                    
+                    <br>Education: Bachelor's
+                    
+                    <br>Location: UAE
+                    
+                    <br>Language: English , Hindi
+                    
+                    <br>Salary: AED 14,850.00 to AED 16,000.00 /month</span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+    </div>
+    <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+              }
+            }
+            </script>
+        <!--<div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+
+            <div class="col-block service-item " data-aos="fade-up">
+                <div class="service-icon service-icon--brand-identity">
+                    <i class="icon-tv"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Business Growth</h3>
+                    <p>The process of improving some measure of an enterprise's success. Business growth can be a achieved either by boosting of the top line or revenue of the business.</p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon  service-icon--illustration">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Sustainability</h3>
+                    <p>Sustainability is a priority interest for many of organizations, when it comes to sustainability and corporate responsibility, we believe the normal rules of business apply. </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon  service-icon--web-design">
+                    <i class="icon-earth"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h4">Performance</h3>
+                    <p>In a contract, performance is deemed to be the fulfillment of an obligation, in a manner that releases the performer from all liabilities under the contract of both you and us.</p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon service-icon--product-strategy">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Advanced Analytics</h3>
+                    <p>Business analytics is the practice of iterative, methodical exploration of organization's data with emphasis statistical analysis. Typically beyond those traditional business. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon  service-icon--ui-design">
+                    <i class="icon-window"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Customer Insights</h3>
+                    <p>Is an interpretation of trends in human behaviors which aims to increase effectiveness of a product or service for the consumer, as well as increase sales mutual benefit
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon service-icon--mobile-dev">
+                    <i class="icon-lego-block"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Organisation</h3>
+                    <p>We help business improve financial performance by ensuring the entire organization system is aligned and set up to deliver on the company’s objectives of all the time.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services-list ->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <!--<section id='works' class="s-works">
+                
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Latest Projects</h3>
+                <h3 class="h4">We have done more than 10,000 projects in the short period time and
+                    all the projects are done by our expert team with 100% satisfaction.</h3>
+            </div>
+        </div> <!-- end section-header ->
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg" 
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                RFID
+                            </h3>
+                            <p class="item-folio__cat">
+                                RFID based door access control
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>...</p>
+                        </div>
+
+                    </div> <!-- end item-folio ->
+                </div> <!-- end masonry__brick ->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Salad" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                POS
+                            </h3>
+                            <p class="item-folio__cat">
+                                Restaurant POS
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>...</p>
+                        </span>
+
+                    </div> <!-- end item-folio ->
+                </div> <!-- end masonry__brick ->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                WEB PROJECT
+                            </h3>
+                            <p class="item-folio__cat">
+                                Flight booking system
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>...</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+<!--<div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" title="Liberty" data-size="1050x700">
+                                <img src="images/portfolio/liberty.jpg"
+                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Liberty
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio ->
+                </div>  <!-- end masonry__brick ->
+
+
+            <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Fuji" data-size="1050x700">
+                                <img src="images/portfolio/fuji.jpg"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Fuji
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio ->
+                </div> <!-- end masonry__brick ->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg"
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lady Shutterbug
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio ->
+                </div> <!-- end masonry__brick ->
+
+            </div> <!-- end masonry ->
+        </div>  <!-- end masonry-wrap ->
+
+        <div class="testimonials-wrap" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-full testimonials-header">
+                    <h2 class="h1">What Clients Are Saying.</h2>
+                </div>
+            </div>
+
+            <div class="row testimonials">
+
+                <div class="col-full testimonials__slider">
+
+                    <div class="testimonials__slide">
+                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                        <p>They bring a wealth of knowledge as well as a personal touch so often missing from other firms, helped us to just have better handle on everything.</p>
+                        <div class="testimonials__author">
+                                Mitchel Harward
+                            <span>San Fransisco</span>
+                        </div>
+                    </div> <!-- end testimonials__slide ->
+
+                    <div class="testimonials__slide">
+                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                        <p>It involves an examination of operations which allows their team discuss the art of the possible. They bring a wealth of knowledge, we believe ABC LLC.</p>
+                        <div class="testimonials__author">
+                            Rusel Bielly
+                            <span>AbuDabi</span>
+                        </div>
+                    </div> <!-- end testimonials__slide ->
+
+                    <div class="testimonials__slide">
+                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                        <p>ABC LLC has helped us to just have a better handle on everything in our business – to actually make decisions and move forward to grow.p>
+                        <div class="testimonials__author">
+                            Hearly lopes
+                            <span>UAE</span>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+                    
+                </div> <!-- end testimonials__slider -->
+
+            </div> <!-- end testimonials -->
+
+        </div> <!-- end testimonials-wrap -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- stats
+    ================================================== -->
+    <!--<section id="stats" class="s-stats">
+
+        <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+            <div class="col-block stats__col ">
+                <div class="stats__count">534</div>
+                <h5>Sucessful Projects</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">146</div>
+                <h5>Clients</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">56</div>
+                <h5>Desktop Projects</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">314</div>
+                <h5>Other Projects</h5> 
+            </div>
+
+        </div> <!-- end stats -->
+
+    </section> <!-- end s-stats -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--light">Contact Us</h3>
+                <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater product.</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row">
+
+            <div class="col-full contact-main" data-aos="fade-up">
+                <p>
+                <a href="mailto:#0" class="contact-email">info@abconsortium.org</a>
+                <span class="contact-number"><!-- contact no. here--></span>
+                </p>
+            </div> <!-- end contact-main -->
+
+        </div> <!-- end row -->
+
+        <div class="row">
+
+            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+                <h3 class="subhead subhead--light">ABConsortium</h3>
+
+                <p class="">
+                        ABC LLC provides the highly proficient inbound call center services at Enterprise level. We deals in all kinds of industries and businesses.Our expertise team has great interaction skills with outside environment. We have US based agents. We know your business and potential target market.
+                </p>
+            </div> <!-- end contact-secondary -->
+
+            <!--<div class="col-five tab-full contact-secondary" data-aos="fade-up">
+                <h3 class="subhead subhead--light">Follow Us</h3>
+
+                <ul class="contact-social">
+                    <li>
+                        <a href="#0"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-dribbble"></i></a>
+                    </li>
+                </ul> <!-- end contact-social -->
+
+               <!-- <div class="contact-subscribe">
+                    <form id="mc-form" class="group mc-form" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
+                        <label for="mc-email" class="subscribe-message"></label>
+                    </form>
+                </div> <!-- end contact-subscribe -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end row -->
+
+        <div class="row">
+            <div class="col-full cl-copyright">
+                <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span> 
+            </div>
+        </div>
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">            
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
