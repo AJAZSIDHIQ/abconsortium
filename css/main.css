@@ -2483,7 +2483,7 @@ html.no-csstransitions .home-content__main {
 }
 .masonry__brick {
   float: left;
-  padding: 30%;
+  padding: 0;
 }
 
 .item-folio {
