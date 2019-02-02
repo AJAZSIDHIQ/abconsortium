@@ -11,6 +11,7 @@ $cvLink = $_POST['cvLinkInput'];
 
 $connection = mysql_connect("localhost", "qlrsabna_abconsortium", "Abconsortium"); // Establishing Connection with Server..
 $db = mysql_select_db("qlrsabna_abconsortium", $connection); // Selecting Database
+echo "insert into job_applications (name, email) values ('$name', '$email')";
 if (isset($_POST['name'])) {
 $query = mysql_query("insert into job_applications (name, email) values ('$name', '$email')"); //Insert Query
 echo "Form Submitted succesfully";
