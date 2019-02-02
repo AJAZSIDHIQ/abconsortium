@@ -55,7 +55,7 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href=".index.html">
+            <a class="site-logo" href="../index.html">
                 <img src="../images/icons/logowhite.png" alt="Homepage">
             </a>
         </div> <!-- end header-logo -->
@@ -266,14 +266,14 @@
                         <br>Language: English , Hindi
                         
                         <br>Salary: AED 14,850.00 to AED 16,000.00 /month</span></p>
-                <a class="btn btn--primary" onclick="myFunction()" id="myBtn">Read more</a>
+                <a class="btn btn--primary" onclick="myFunction('dots','more','myBtn')" id="myBtn">Read more</a>
         </div>  
        
             <script>
-            function myFunction() {
-                var dots = document.getElementById("dots");
-                var moreText = document.getElementById("more");
-                var btnText = document.getElementById("myBtn");
+            function myFunction(maintext ,readmoretext,buttontext) {
+                var dots = document.getElementById(maintext);
+                var moreText = document.getElementById(readmoretext);
+                var btnText = document.getElementById(buttontext);
               
                 if (dots.style.display === "none") {
                   dots.style.display = "inline";
@@ -286,6 +286,29 @@
                 }
               }
               </script>
+
+            <div class="row">
+                <h3>Digital Marketing Trainer</h3>
+                <p><span id="dots1">Candidates should be able to train people on different aspects of digital marketing such as Google Adwords, Social media marketing, SEO, Affiliate marketing, YouTube marketing etc..</span>
+                    <span id="more1" style="display: none">Candidates should be able to train people on different aspects of digital marketing such as Google Adwords, Social media marketing, SEO, Affiliate marketing, YouTube marketing etc..
+
+                        <br><br>Job Type: Full-time
+                        
+                        <br>Experience: Marketing: 1 years
+                        
+                        <br> Digital Marketing: 1 years
+                        
+                        <br>Work: 2 years
+                        
+                        <br>Education: Bachelor's
+                        
+                        <br>Location: UAE
+                        
+                        <br>Language: English , Hindi
+                        
+                        <br>Salary: AED 14,850.00 to AED 16,000.00 /month</span></p>
+                        <a class="btn btn--primary" onclick="myFunction('dots1','more1','myBtn1')" id="myBtn1">Read more</a>
+                    </div>
         
         <!--<div class="row services-list block-1-3 block-m-1-2 block-tab-full">
 
