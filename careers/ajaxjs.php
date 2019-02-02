@@ -9,8 +9,9 @@ $is_fresher = $_POST['fresh'];
 $address = $_POST['addressInput'];
 $cvLink = $_POST['cvLinkInput'];
 
-echo "check2";
+
 $connection = mysql_connect("localhost", "qlrsabna_abconsortium", "Abconsortium"); // Establishing Connection with Server..
+echo "check2";
 $db = mysql_select_db("qlrsabna_abconsortium", $connection); // Selecting Database
 echo "check3";
 if (isset($_POST['name'])) {
