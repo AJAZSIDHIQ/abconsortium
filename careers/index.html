@@ -55,7 +55,7 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="../index.html">
+            <a class="site-logo" href="..">
                 <img src="../images/icons/logowhite.png" alt="Homepage">
             </a>
         </div> <!-- end header-logo -->
@@ -247,7 +247,7 @@
                 </div>
         </div> <!-- end section-header -->
         <div class="row">
-                <h3>Digital Marketing Trainer</h3>
+                <h3 id="role">Digital Marketing Trainer</h3>
                  <p><span id="dots">Candidates should be able to train people on different aspects of digital marketing such as Google Adwords, Social media marketing, SEO, Affiliate marketing, YouTube marketing etc..</span>
                     <span id="more" style="display: none">Candidates should be able to train people on different aspects of digital marketing such as Google Adwords, Social media marketing, SEO, Affiliate marketing, YouTube marketing etc..
 
@@ -267,7 +267,7 @@
                         
                         <br>Salary: AED 14,850.00 to AED 16,000.00 /month</span></p>
                 <a class="btn btn--primary" onclick="myFunction('dots','more','myBtn')" id="myBtn">Read more</a>
-                <a class="btn btn--primary" onclick="jobApply()" id="applyButton">Apply</a>
+                <a class="btn btn--primary" onclick="jobApply('role')" id="applyButton">Apply</a>
 
         </div>  
        
@@ -288,14 +288,15 @@
                 }
               }
 
-              function jobApply(){
+              function jobApply(roles){
                 document.getElementById('applicationForm').scrollIntoView(true);
+                document.getElementById('jobPositionInput').value=document.getElementById(roles).innerHTML;
 
               }
               </script>
 
             <div class="row">
-                <h3>Front Office Executive</h3>
+                <h3 id="role1">Front Office Executive</h3>
                 <p><span id="dots2">We urgently required a smart, pleasing lady front office executive to handle day to day activities, attending incoming and outgoing call, ...</span>
                     <span id="more2" style="display: none">We urgently required a smart, pleasing lady front office executive to handle day to day activities, attending incoming and outgoing call, ...
 
@@ -313,11 +314,11 @@
                         
                         <br>Language: English , Hindi</span></p>
                         <a class="btn btn--primary" onclick="myFunction('dots2','more2','myBtn2')" id="myBtn2">Read more</a>
-                        <a class="btn btn--primary" onclick="jobApply()" id="applyButton">Apply</a>
+                        <a class="btn btn--primary" onclick="jobApply('role1')" id="applyButton">Apply</a>
 
                     </div>
                     <div class="row">
-                        <h3>Sr. HR Manager</h3>
+                        <h3 id="role2">Sr. HR Manager</h3>
                         <p><span id="dots3">To develop and deliver people management strategies which support the business overall strategic aims and objectives and facilitating them at an Operational level. The jobholder will be expected to contribute at both a strategic and operational level in order to identify HR priorities and recommend appropriate people management solutions which support business aims, in addition to providing a customer- focused HR service. The jobholder will provide expert professional advice and support to managers and staff on all aspects of people management, which fully reflects the business desire to be an employer of choice, current employment legislation and best practice.
 
                         </span>
@@ -335,11 +336,11 @@
                                 
                                 <br>Language: ENGLISH (Required)</span></p>
                                 <a class="btn btn--primary" onclick="myFunction('dots3','more3','myBtn3')" id="myBtn3">Read more</a>
-                                <a class="btn btn--primary" onclick="jobApply()" id="applyButton">Apply</a>
+                                <a class="btn btn--primary" onclick="jobApply('role2')" id="applyButton">Apply</a>
 
                             </div>
                             <div class="row">
-                                <h3>Website Desiging</h3>
+                                <h3 id="role3">Website Desiging</h3>
                                 <p><span id="dots4">ABC LLC design top quality websites that will be a sure asset for your business and brand concepts, thus creating a better brand impression and user-friendly interface.
 
                                 </span>
@@ -360,10 +361,10 @@
                                     
                                     <br>Language: English</span></p>
                                         <a class="btn btn--primary" onclick="myFunction('dots4','more4','myBtn4')" id="myBtn4">Read more</a>
-                                        <a class="btn btn--primary" onclick="jobApply()" id="applyButton">Apply</a>
+                                        <a class="btn btn--primary" onclick="jobApply('role3')" id="applyButton">Apply</a>
                                     </div>
                                     <div class="row">
-                                        <h3>IT Software Developer</h3>
+                                        <h3 id="role4">IT Software Developer</h3>
                                         <p><span id="dots5">We are looking for a PHP Web Developer who will work as part of a team to develop and maintain the dynamic website and web applications using various web technologies. The ideal candidate will have at least 2 years of demonstrable experience designing and developing PHP Applications. You will be a part of a creative team that is responsible for all the aspects of ongoing Website Designing and development from the initial specifications to developing, testing and launching </span>
                                             <span id="more5" style="display: none">We are looking for a PHP Web Developer who will work as part of a team to develop and maintain the dynamic website and web applications using various web technologies. The ideal candidate will have at least 2 years of demonstrable experience designing and developing PHP Applications. You will be a part of a creative team that is responsible for all the aspects of ongoing Website Designing and development from the initial specifications to developing, testing and launching.
 
@@ -389,10 +390,10 @@
                                                 
                                                 <br>Salary: AED 12,000.00 to AED 14,000.00 /month</span></p>
                                                 <a class="btn btn--primary" onclick="myFunction('dots5','more5','myBtn5')" id="myBtn5">Read more</a>
-                                                <a class="btn btn--primary" onclick="jobApply()" id="applyButton">Apply</a>
+                                                <a class="btn btn--primary" onclick="jobApply('role4')" id="applyButton">Apply</a>
                                             </div>
                                             <div class="row">
-                                                <h3>SEO/SEM expertr</h3>
+                                                <h3 id="role5">SEO/SEM expertr</h3>
                                                 <p><span id="dots6">We are looking for an SEO/SEM expert to manage all search engine optimization and marketing activities.You will be responsible for managing all SEO activities such as content strategy, link building and keyword strategy to increase rankings on all major search networks. You will also manage all SEM campaigns on Google, Yahoo and Bing in order to maximize ROI.</span>
                                                     <span id="more6" style="display: none">ABC LLC design top quality websites that will be a sure asset for your business and brand concepts, thus creating a better brand impression and user-friendly interface.
                                                     <br><br>We are looking for an SEO/SEM expert to manage all search engine optimization and marketing activities.You will be responsible for managing all SEO activities such as content strategy, link building and keyword strategy to increase rankings on all major search networks. You will also manage all SEM campaigns on Google, Yahoo and Bing in order to maximize ROI.
@@ -431,11 +432,11 @@
                                             
                                             <br>Salary: AED 5,500.00 to AED 10,000.00 /month</span></p>
                                                         <a class="btn btn--primary" onclick="myFunction('dots6','more6','myBtn6')" id="myBtn6">Read more</a>
-                                                        <a class="btn btn--primary" onclick="jobApply()" id="applyButton">Apply</a>
+                                                        <a class="btn btn--primary" onclick="jobApply('role5')" id="applyButton">Apply</a>
 
                                                     </div>
                                                     <div class="row">
-                                                        <h3>UI Desiging</h3>
+                                                        <h3 id="role6">UI Desiging</h3>
                                                         <p><span id="dots7">We are looking for a talented UI Designer to create amazing user experiences. The ideal candidate should have an eye for clean and artful design, possess superior UI skills and be able to translate high-level requirements into interaction flows and artifacts, and transform them into beautiful, intuitive, and functional user interfaces
 
                                                         </span>
@@ -465,11 +466,11 @@
                                                                 
                                                                 <br>Salary: AED 15,833.00 to AED 20,000.00 /month</span></p>
                                                                 <a class="btn btn--primary" onclick="myFunction('dots7','more7','myBtn7')" id="myBtn7">Read more</a>
-                                                                <a class="btn btn--primary" onclick="jobApply()" id="applyButton">Apply</a>
+                                                                <a class="btn btn--primary" onclick="jobApply('role6')" id="applyButton">Apply</a>
 
                                                             </div>
                                                             <div class="row">
-                                                                <h3>UI Developing</h3>
+                                                                <h3 id="role7">UI Developing</h3>
                                                                 <p><span id="dots8">The applicant must have a background in functional composition of web pages using HTML / CSS, JavaScript, jQuery and turning a wireframe design into a well-formatted, user-friendly web page. Programming experience, the ability to write complex scripts, and work with browsers is also a plus along with knowledge of grids, typography, hierarchy and information flow.
 
                                                                 </span>
@@ -501,7 +502,7 @@
                                                                         
                                                                         <br>Salary: AED 12,000.00 to AED 15,000.00 /month</span></p>
                                                                         <a class="btn btn--primary" onclick="myFunction('dots8','more8','myBtn8')" id="myBtn8">Read more</a>
-                                                                        <a class="btn btn--primary" onclick="jobApply()" id="applyButton">Apply</a>
+                                                                        <a class="btn btn--primary" onclick="jobApply('role7')" id="applyButton">Apply</a>
 
                                                                     </div>
 
@@ -509,30 +510,49 @@
 
                                                                             <h2>Application Form</h2>
                                                             
-                                                                            <form >
+                                                                            <form  action="ajaxjs.php" method="post">
                                                                                                                             
                                                                                 <div>
                                                                                     <label for="sampleInput">Name</label>
-                                                                                    <input class="full-width" type="text" placeholder="Name" id="nameInput">
+                                                                                    <input class="full-width" type="text" placeholder="Name" id="nameInput" name="nameInput">
                                                                                 </div>
                                                                                 <div>
                                                                                     <label for="sampleInput">Your email</label>
-                                                                                    <input class="full-width" type="email" placeholder="test@mailbox.com" id="emailInput">
+                                                                                    <input class="full-width" type="email" placeholder="test@mailbox.com" id="emailInput" name="emailInput">
                                                                                 </div>
                                                                                 <div>
                                                                                         <label for="sampleInput">Phone number</label>
-                                                                                        <input class="full-width" type="tel" placeholder="+919876543210" id="contactInput">
+                                                                                        <input class="full-width" type="tel" placeholder="+919876543210" id="contactInput" name="contactInput">
+                                                                                        
                                                                                 </div>
-                                                                            <div>
+                                                                                <div>
+                                                                                        <label for="sampleInput">Applying For the position</label>
+                                                                                        <input class="full-width" type="text" placeholder="position" id="jobPositionInput" name="jobPositionInput">
+                                                                                        
+                                                                                </div>
+                                                                                <div>
+                                                                                        <input type="radio" name="fresh" value="1" checked>Fresher<br>
+                                                                                        <input type="radio" name="fresh" value="0" checked>Non Fresher<br>
+                                                                                </div>
+                                                                                <div>
+                                                                                        <label for="sampleInput">Resume/CV link</label>
+                                                                                        <input class="full-width" type="text" placeholder="https://drive.google.com/dfhyhjj67ghjhjk" id="cvLinkInput" name="cvLinkInput">
+                                                                                        
+                                                                                </div>
+                                                                            <!-- <div>
                                                                                     <label for="sampleRecipientInput">Reason for contacting</label>
                                                                                     <div class="cl-custom-select">
                                                                                         <select class="full-width" id="sampleRecipientInput">
-                                                                                            <option value="Option 1">Questions</option>
+                                                                                            <option value="Fresher  ">Questions</option>
                                                                                             <option value="Option 2">Report</option>
                                                                                             <option value="Option 3">Others</option>
                                                                                         </select>
                                                                                     </div>
-                                                                            </div>
+                                                                            </div> -->
+                                                                            <!-- <div>
+                                                                                    <label for="CVinput">Upload CV</label>
+                                                                            <input type="file" name="upload" accept="application/pdf,application/vnd.ms-excel"/>
+                                                                            </div> -->
                                                                             
                                                                                 <label for="exampleMessage">Address</label>
                                                                                 <textarea class="full-width" placeholder="Your Address" id="addressInput"></textarea>
